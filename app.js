@@ -29,5 +29,5 @@ app.get('/getReviews', async (req, res) => {
     });
 });
 
-const port = 80;
+const port = 3000;
 app.listen(port, () => console.log(`Servidor corriendo en puerto ${port}.`));
