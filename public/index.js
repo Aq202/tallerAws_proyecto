@@ -1,4 +1,4 @@
-const host = "http://localhost:80"
+const host = ""
 
 
 const renderReviewComponent = ({user, movie, rating, container}) => {
