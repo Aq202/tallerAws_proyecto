@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Proyecto taller AWS</title>
+
+        <link rel="stylesheet" href="index.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Calificación de películas</h1>
+        </header>
+
+        <main>
+            <form class="review-form">
+                <h2>Calificar Película:</h2>
+                <div class="form-container">
+                    <label for="txt-name">Nombre de usuario:</label>
+                    <input type="text" id="txt-name" placeholder="Ingresa tu nombre." />
+                    <label for="txt-movie">Película:</label>
+                    <input
+                        type="text"
+                        id="txt-movie"
+                        placeholder="Ingresa el título de la película." />
+                    <label for="txt-rating">Calificación:</label>
+                    <input type="number" id="txt-rating" min="0" max="5" placeholder="0 - 5" />
+
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+
+            <div class="reviews-container">
+              <h2>Reviews de otros usuarios:</h2>
+            <ul class="reviews-list">
+
+              
+            </ul>
+          </div>
+
+            
+        </main>
+    </body>
+
+    <script src="./index.js"></script>
+</html>
